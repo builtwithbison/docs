@@ -1,6 +1,6 @@
 # Bison Documentation
 
-This is the `_content/docs/` folder used on [the Bison website](http://builtwithbison.com/docs`.  
+This is the `_content/docs/` folder used on [the Bison website](http://builtwithbison.com/docs).  
 Anything in the `master` branch here should reflect whats on there.
 
 Writing documentation is tough. There are good chances that some things get left off, become outdated or are just flat-out incorrect. 
