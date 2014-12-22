@@ -8,7 +8,7 @@ title: Installing and updating
 (Bison comes with the core, and a few additional sub-addons like fieldtypes.)
 * Copy the contents of `_config/add-ons/bison` into to `_config/add-ons/bison`
 * Rename `_config/add-ons/bison/_bison.yaml` to `bison.yaml`.
-* If you are using Statamic 1.7, **do not** enable `_http_cache_expires`.
+* Turn off caching (`http_cache_expires` and `html_caching`) or [at least be aware of them](/blog/statamic-caching).
 
 ## Configuration 
 
