@@ -1,12 +1,11 @@
 ---
 title: Fieldtypes
-_default_folder_template: docs
 ---
 
 Bison comes with a few bundled fieldtypes:
 
 <ul>
-{{ pages:listing }}
+{{ pages:listing folder="/docs/fieldtypes" }}
   <li><a href="{{ url }}">{{ title }}</a> - {{ short_desc }}</li>
 {{ /pages:listing }}
 </ul>

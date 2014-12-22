@@ -82,14 +82,9 @@ eg. `['products', 'things']`
   <small>`paid: green`</small>
 
 `email_handler`
-:   The email handler used to send any emails. By default, PHP Mail will be used, but Bison can integrate with the following services:
-
-    * [`mandrill`](http://mandrill.com/)
-    * [`mailgun`](http://www.mailgun.com/)
-    * [`postmark`](https://postmarkapp.com/)
-    * [`sendgrid`](http://sendgrid.com/)
-
-    Each service requires your own account and an API key.
+: The email handler used to send any emails. By default, PHP Mail will be used, but Bison can integrate with the following services:  
+  [`mandrill`](http://mandrill.com/), [`mailgun`](http://www.mailgun.com/), [`postmark`](https://postmarkapp.com/) and [`sendgrid`](http://sendgrid.com/)  
+  Each service requires your own account and an API key.
 
 `email_handler_key`
 : If you are using an email service, your API key goes here.

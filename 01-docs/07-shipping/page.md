@@ -1,6 +1,5 @@
 ---
 title: Shipping
-_default_folder_template: docs
 ---
 
 Bison comes with a number of shipping price methods. Each have their own options.  

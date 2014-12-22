@@ -1,9 +1,7 @@
 ---
 title: Documentation
-_fieldset: page
-_default_folder_template: docs
-_template: docs
 ---
-## Welcome to the Bison docs.
+Hello friend – and welcome to your journey through the great plains of ecommerce!  
+What a handsome Bison you have there.
 
-We try to update these pages as often as the code, but if you find an error, please [let us know](/contact).
+This area is actually being pulled directly from [a public Github repo](https://github.com/pixelfear/bison-docs) where you can help make it better! If you see an issue with something in these here parts, please feel free to fork it, edit it, and create a pull request.

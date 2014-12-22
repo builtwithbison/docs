@@ -1,6 +1,5 @@
 ---
 title: Gateways
-_default_folder_template: docs
 ---
 
 ## Gateway Configuration

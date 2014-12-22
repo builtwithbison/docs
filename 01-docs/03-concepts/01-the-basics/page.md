@@ -26,3 +26,5 @@ You can use the [update cart form tag](/docs/tags/managing-the-cart#update_cart_
 Your customer has finished browsing and selecting products they want to purchase. Now you should provide a way for them to pay for what they want. You'll want to create a checkout page. You can use the [checkout form tag](/docs/tags/checking-out#checkout_form) to create a way for your customer to enter their payment details and perform a transaction. You'll need to make sure to set up a [payment gateway](/docs/gateways) in your [configuration settings](/docs/configuring/settings).
 
 Once the payment has been completed, you'll need to provide some feedback. You can use the [order details tag](/docs/tags/checking-out#order_details) to do that.
+
+{{ /noparse }}

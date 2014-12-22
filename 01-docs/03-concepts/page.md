@@ -1,11 +1,10 @@
 ---
 title: Concepts
-_default_folder_template: docs
 ---
-Learn different tip and tricks about Bison and Statamic.
+Learn different tips and tricks about Bison and Statamic.
 
 <ul>
-{{ nav }}
+{{ pages:listing folder="/docs/concepts" }}
 	<li><a href="{{ url }}">{{ title }}</a></li>
-{{ /nav }}
+{{ /pages:listing }}
 </ul>
