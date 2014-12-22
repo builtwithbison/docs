@@ -13,8 +13,6 @@ The following would set a 10% tax rate.
 tax_rate: 10
 ```
 
----
-
 ## Tax inclusive product pricing
 
 By default, tax is automatically calculated and added to your cart's total.
