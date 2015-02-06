@@ -1,3 +1,6 @@
+---
+title: Downloads
+---
 Not all products are tangible. Sometimes you'll want to sell something downloadable, like 
 software or ebooks. Bison can help you here too.
 
