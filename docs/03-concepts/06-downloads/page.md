@@ -1,6 +1,8 @@
 ---
 title: Downloads
 ---
+{{ noparse }}
+
 Not all products are tangible. Sometimes you'll want to sell something downloadable, like 
 software or ebooks. Bison can help you here too.
 
@@ -94,3 +96,4 @@ This will generate a link to the download route you created earlier, with an enc
 the end of it. By specifying the member, it'll create a link that only works if you are logged in as
 that member, so it can't be shared.
 
+{{ /noparse }}
