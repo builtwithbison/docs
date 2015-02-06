@@ -22,7 +22,7 @@ You can create as many discounts as you like, and they can all be processed toge
 ## Creating discounts
 
 ### Getting started
-You will need to create a folder in your content directory to hold your discounts. (Default is `_content/discounts`).  
+You will need to create a folder in your content directory to hold your discounts. (Default is `_content/_discounts`).  
 
 The entries should be date based. (Add `type: date` to your fields.yaml)  
 The date indicates when the discounts will begin to function. You can add an `expiration_date` to your entries/fieldset to provide a date the discount will stop functioning.
