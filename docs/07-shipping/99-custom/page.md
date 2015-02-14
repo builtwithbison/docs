@@ -6,7 +6,7 @@ title: Custom Shipping Methods
 You can use a custom shipping method by entering the add-on's name.
 
 ~~~
-shipping_method: bison_my_shipping_plugin
+shipping_method: your_shipping_plugin
 ~~~
 
 ## How to build a shipping plugin
