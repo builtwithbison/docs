@@ -28,7 +28,7 @@ Then with jQuery, you'd hijack the submission and do it yourself.
 
 ~~~
 <script>
-  var form = $('#cart-form');
+  var $form = $('#cart-form');
   $form.on('submit', function(e) {
     // Prevent the actual submission
     e.preventDefault();
