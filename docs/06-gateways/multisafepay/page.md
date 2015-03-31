@@ -1,6 +1,6 @@
 ---
 title: MultiSafepay
-tested: no
+tested: yes
 intro: |
   Website: [multisafepay.com](https://www.multisafepay.com/)
 ---

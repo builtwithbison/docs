@@ -1,6 +1,6 @@
 ---
 title: Mollie
-tested: no
+tested: yes
 intro: |
   Website: [mollie.nl](https://www.mollie.nl/)
 ---
