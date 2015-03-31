@@ -13,23 +13,45 @@ Use any of the following methods by doing the following from any aspect of your 
 $this->addon->api('bison')->methodName()
 ~~~
 
-`getBisonConfig()`
-: Returns the contents of Bison's config files as an associative array.
+`getBisonConfig()`  
+Returns the contents of Bison's config files as an associative array.
 
-`getCartItems()`
-: Returns the contents of the cart as an associative array.
+`getCustomerInfo()`  
+Returns the customer's details
 
-`getCustomerInfo()`
-: Returns the customer's details
+`getCartItems($use_dollars = false, $use_separator = false)`  
+Returns the contents of the cart as an associative array.
 
-`getCartItemCount()`
-: Returns the number of items in the cart
+`getCartItemCount()`  
+Returns the number of items in the cart
 
-`toCents()`
-: Converts a value to cents
+`getCartSubtotal($use_dollars = false, $use_separator = false)`  
+Returns the cart subtotal before discounts
 
-`toDollars()`
-: Converts a value to dollars
+`getCartSubtotalIncDiscounts($use_dollars = false, $use_separator = true)`  
+Returns the cart subdotal including discounts
+
+`getCartShipping($use_dollars = false, $use_separator = true)`  
+Get the cart's shipping total
+
+`getCartDiscount($use_dollars = false, $use_separator = true)`  
+Get the cart's discount total
+
+`getTaxRate()`  
+Get the tax rate
+
+`getCartTax($use_dollars = false, $use_separator = true)`  
+Get the cart's tax total
+
+`toCents($dollars)`  
+Converts a value to cents
+
+`toDollars($cents, $separate_thousands = false)`  
+Converts a value to dollars
+
+### Parameters
+
+Money is handled in cents. Most of the time, you'll need values in cents. For instance, `$123,000.50` is `12300050` cents. But if you need them in dollars, set the `$use_dollars` parameter to `true`. This will give you a value with a decimal point. ie `123000.50`. If you want the thousands separated, specify that too. You will then get something like `123,000.50` or `123.000,50` depending on your currency settings.
 
 
 ## Hooks
