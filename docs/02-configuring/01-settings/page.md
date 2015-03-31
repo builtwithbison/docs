@@ -49,6 +49,22 @@ eg. `['products', 'things']`
 : Field name for flagging a product as tax-free  
   <small>`tax_free`</small>
 
+`enable_tax_number_field`
+: Do you want to allow customers to enter a tax number (ie. VAT)?  
+  <small>`false`</small>
+
+`tax_number_validation`:
+: How should the tax number be validated? (ie. A ensure `tax_number` is a valid VAT number)  
+  <small>`vat`</small>
+
+`shipping_taxable`
+: Should shipping be taxed?  
+  <small>`false`</small>
+
+`discounts_taxable`
+: Should discounts be included in the tax calculations?  
+  <small>`true`</small>
+
 `shipping_method`
 : Shipping calculation method. [More info](/docs/configuring/shipping).
 
