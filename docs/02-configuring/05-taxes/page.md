@@ -21,4 +21,16 @@ If you need your product prices to be tax-inclusive (for example, for VAT) you c
 
 `{{ bison:cart_total }}` will either include or exclude tax depending on this setting. `{{ bison:cart_tax }}` will always display the same tax value regardless of the setting.
 
+
+## Tax number handling
+
+_Only compatible with VAT at the moment._
+
+It's a common request to be able to collect a customers tax number (for example, their VAT number).
+
+To do this, make sure `enable_tax_number_field` is set to `true` in your `bison.yaml` file.
+Add a `tax_number` field to your checkout flow. A good place to put this is in a `bison:customer_form`.
+
+If a valid tax number is given, you're good to go. If not, you can catch it in your `bison:customer_form_errors` tag in a `{{ if tax_number }}invalid!{{ /if }}` conditional.
+
 {{ /noparse }}
