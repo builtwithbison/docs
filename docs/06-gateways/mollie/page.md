@@ -6,10 +6,12 @@ intro: |
 ---
 
 Add the following to your `bison.yaml` file:
+
 ~~~
 payment_gateway: Mollie
 gateway_settings:
-  mollie:
-    partner_id:
-    test_mode:
+  Mollie:
+    apiKey:
 ~~~
+
+You can enable test mode by using your test API key.
