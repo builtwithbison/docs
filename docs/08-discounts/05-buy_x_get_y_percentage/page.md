@@ -44,7 +44,7 @@ discount_product_max: 1
 
 ```
 title: "Buy 3 tickets, get the next 2 at 50% off"
-discount_type: buy_x_get_y_percent
+discount_type: buy_x_get_y_percentage
 discount_value: 50
 discount_trigger_products:
   - /products/mona-lisa-painting
