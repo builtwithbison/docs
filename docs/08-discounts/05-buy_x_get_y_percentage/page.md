@@ -57,5 +57,5 @@ discount_product_max: 2
 
 * `discount_trigger_product_min: 3` is saying:  
 "3 of the `discount_trigger_products` should be in the cart. It doesn't matter if it's 3 of the same, one of each, or 2 of one and 1 of another. Just 3 of any."
-* `discount_product_max: 1` is saying:  
+* `discount_product_max: 2` is saying:  
 "Only apply the discount to 2 of `discount_product`. If you have more than 2 in the cart, it won't matter. Only 2 will be discounted."
